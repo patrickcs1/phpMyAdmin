@@ -30,7 +30,9 @@ $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = 'mysql';
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['AllowNoPassword'] = false;
+$cfg['Servers'][$i]['user'] = 'userXOU';
+$cfg['Servers'][$i]['password'] = 'BRfaOxd2SI88oxCl';
 
 
 /**
